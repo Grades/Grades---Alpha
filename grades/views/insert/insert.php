@@ -1,5 +1,6 @@
 <?php
 echo "<b>grades/views/insert/insert.php</b> erfolgreich geladen. <br>";
+echo "<a href=\"index.php?site=grades&view=show\">Noten anzeigen</a><br>";
 ?>
 <form name="insert" action="#" method="post">
   <h2>Neue Note eintragen</h2>

@@ -1,8 +1,13 @@
 <?php
 echo "<b>grades/grades.php</b> erfolgreich geladen. <br>";
 
-require_once("functions/functions.php");
+/* Includes, Requires
+ * --------------------------------------- */
+require_once("functions.php");
+require_once("actions.php");
 
+/* Views
+ * --------------------------------------- */
 $view=$_GET['view'];
 switch ($view){
   case insert:

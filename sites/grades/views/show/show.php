@@ -7,6 +7,8 @@ $showgrades_SQL="SELECT * FROM grades ORDER BY grade_id ASC";
 $showgrades=mysql_query($showgrades_SQL);
 
 while($grade=mysql_fetch_array($showgrades)){
-	echo "Note " . $grade['grade_id'] . " mit dem Wert " . $grade['grade_value'] . " - <a href=\"index.php?site=grades&view=show&action=delete&delid=" . $grade['grade_id'] . "\">l&ouml;schen</a> <br>";  
+/*	echo "Note " . $grade['grade_id'] . " mit dem Wert " . $grade['grade_value'] . " - <a href=\"index.php?site=grades&view=show&action=delete&delid=" . $grade['grade_id'] . "\">l&ouml;schen</a> <br>";*/  
+	echo "Note " . $grade['grade_id'] . " mit dem Wert " . $grade['grade_value'] . " - <a href=\"#.&action=delete&delid=" . $grade['grade_id'] . "\">l&ouml;schen</a> <br>";  
 }
+include ("sites/grades/views/insert/insert.php");
 ?>

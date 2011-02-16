@@ -29,9 +29,9 @@ echo "<br><br>";
 	<script type="text/javascript"> 
 		// wait for the DOM to be loaded 
 			$(document).ready(function() { 
-		// bind 'myForm' and provide a simple callback function 
+		// bind 'insert_form' and provide a simple callback function 
 			$('#insert_form').ajaxForm(function() { 
-			alert("Note wurde erfolgreich eingetragen!"); 
+			alert("die Note wurde erfolgreich eingetragen!"); 
             }); 
         }); 
         </script> 

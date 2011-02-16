@@ -2,7 +2,7 @@
 //echo "<b>grades/views/insert/insert.php</b> erfolgreich geladen. <br>";
 ?>
 
-<form name="insert" action="#" method="post">
+<form id="insert_form" name="insert" action="#" method="post">
   <h4>Neue Note</h4>
     <input type="text" name="grade_value" value="Note hier eintragen">
     <input type="submit" name="grade_submit" value="Note eintragen">
@@ -20,3 +20,18 @@ $site_title="Note eintragen";
 //Placeholders
 echo "<br><br>";
 ?>
+
+	<script type="text/javascript" src="plugins/jquery/jquery-1.5.js">
+		</script>
+	<script type="text/javascript" src="plugins/jquery/jquery.form.js">
+		</script>
+		
+	<script type="text/javascript"> 
+		// wait for the DOM to be loaded 
+			$(document).ready(function() { 
+		// bind 'myForm' and provide a simple callback function 
+			$('#insert_form').ajaxForm(function() { 
+			alert("Note wurde erfolgreich eingetragen!"); 
+            }); 
+        }); 
+        </script> 

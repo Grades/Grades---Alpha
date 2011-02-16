@@ -1,5 +1,5 @@
 <?php
-//echo "<b>index.php</b> erfolgreich geladen.<br>";
+echo "<b>index.php</b> erfolgreich geladen. Niklas war hier!<br>";
 
 //Seitentitel, falls kein Inhalt
 $site_title="ohne Titel";

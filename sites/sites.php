@@ -1,5 +1,5 @@
 <?php
-echo "<b>sites/sites.php</b> erfolgreich geladen. <br>";
+//echo "<b>sites/sites.php</b> erfolgreich geladen. <br>";
 
 /* Include Site
  * ------------------------------------------- */

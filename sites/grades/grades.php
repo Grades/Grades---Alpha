@@ -1,5 +1,5 @@
 <?php
-echo "<b>grades/grades.php</b> erfolgreich geladen. <br>";
+//echo "<b>grades/grades.php</b> erfolgreich geladen. <br>";
 
 /* Includes, Requires
  * --------------------------------------- */

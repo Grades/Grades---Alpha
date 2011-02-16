@@ -1,5 +1,5 @@
 <?php
-  echo "<b>/sites/grades/functions/insert/insert.php</b> erfolgreich geladen <br>";
+  //echo "<b>/sites/grades/functions/insert/insert.php</b> erfolgreich geladen <br>";
 
   $grade_SQL_delete="DELETE FROM grades WHERE grade_id='$grade_id'";
   $delete=mysql_query($grade_SQL_delete);

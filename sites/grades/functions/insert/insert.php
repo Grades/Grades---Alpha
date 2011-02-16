@@ -1,5 +1,5 @@
 <?php
-  echo "<b>/grades/functions/insert/insert.php</b> erfolgreich geladen <br>";
+  //echo "<b>/grades/functions/insert/insert.php</b> erfolgreich geladen <br>";
 
   $grade_SQL_insert="INSERT INTO grades 
     (grade_value) VALUES
